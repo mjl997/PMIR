@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(to right, #D8FFDB, #C7FFED);
+}
+
+div{
+    position:relative;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #F2CB05;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.menu {
+    list-style-type: none;
+}
+.menu li {
+    padding-left: 20px; 
+    background: url('https://res.cloudinary.com/dxdxnarjb/image/upload/v1711508605/world_vnvqvq.png') no-repeat left center; 
+    background-size: contain; 
+    margin-bottom: 10px; 
+}
+
