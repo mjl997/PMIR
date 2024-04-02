@@ -1,29 +1,59 @@
+.titulo{
+    background-image: url(https://res.cloudinary.com/dxdxnarjb/image/upload/v1711926571/bosqueo_bdpked.jpg);
+    width: auto;
+    height: 100px;
+    background-size: contain; 
+    left: 0%;
+    color: lightslategray;
+    border-radius: 20px;
+}
+
 h1{
     text-align: center;
 }
 
 body{
-    background: linear-gradient(to right, #D8FFDB, #C7FFED);
+    background: linear-gradient(to bottom, black, lightslategray);
 }
 
-div{
+.division{
     position:relative;
-    top: 70px;
+    top: 5px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+    transform: translateX(-50%);
     text-align: center;
-    background-color: #F2CB05;
+    background-color: lightslategray;
     width: 700px;
     border-radius: 20px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 .menu {
     list-style-type: none;
+    text-align: center;
 }
 .menu li {
+    display: inline-block;
     padding-left: 20px; 
     background: url('https://res.cloudinary.com/dxdxnarjb/image/upload/v1711508605/world_vnvqvq.png') no-repeat left center; 
     background-size: contain; 
     margin-bottom: 10px; 
+    margin-right: 25px; 
+    background-color: lightslategray;
+    border-style: double;
+    border-radius: 20px;
 }
 
+.image{
+    background: url('https://res.cloudinary.com/dxdxnarjb/image/upload/v1712095059/6Tr5oBLac_prm9u0.png') no-repeat;
+    background-size: contain; 
+    width: 300px;
+    height: 300px;
+    line-height: 100px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
