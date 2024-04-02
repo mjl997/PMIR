@@ -46,14 +46,22 @@ body{
     border-radius: 20px;
 }
 
+p{
+    color: black;
+    text-align: center;
+}
+#lista {
+    color: black;
+    text-align: justify;
+}
+
 .image{
     background: url('https://res.cloudinary.com/dxdxnarjb/image/upload/v1712095059/6Tr5oBLac_prm9u0.png') no-repeat;
     background-size: contain; 
-    width: 300px;
-    height: 300px;
-    line-height: 100px;
+    width: 400px;
+    height: 400px;
     position: absolute;
-    left: 0;
-    top: 50%;
+    left: auto;
+    top: 300px;
     transform: translateY(-50%);
 }
