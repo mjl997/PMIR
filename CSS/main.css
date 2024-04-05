@@ -1,5 +1,5 @@
 .titulo{
-    background-color: black;
+    background-color: darkgray;
     width: auto;
     height: 100px;
     background-size: contain; 
@@ -72,9 +72,10 @@ p{
 
 #menu_movil{
     position: absolute;
+    margin-top: 5px;
     width: 200px;
-    height: 400px;
-    background-color: #333;
+    height: 250px;
+    background-color: black;
     border-radius: 20px;
 }
 .limovil{
@@ -83,7 +84,7 @@ p{
     background-size: contain; 
     margin-bottom: 10px; 
     margin-right: 25px; 
-    background-color: lightslategray;
+    background-color: lightgray;
     border-style: double;
     border-radius: 20px;
 }
