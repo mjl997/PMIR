@@ -13,7 +13,7 @@ h1{
 }
 
 body{
-    background: linear-gradient(to bottom, black, lightslategray);
+    background: linear-gradient(to bottom, #333, rgb(63, 239, 131));
 }
 
 .division{
@@ -33,6 +33,10 @@ body{
 .menu {
     list-style-type: none;
     text-align: center;
+}
+.menu a:hover {
+    background-color: gray; 
+    border-radius: 20px;
 }
 .menu li {
     display: inline-block;
@@ -64,4 +68,5 @@ p{
     left: auto;
     top: 300px;
     transform: translateY(-50%);
+    display: none;
 }
