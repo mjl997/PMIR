@@ -20,12 +20,17 @@ let indefinida = undefined;
 let array = ["cosa1", "cosa2", "cosa3", "cosa4"]
 let objeto = {
     nombre: "Super boy",
-    edad: 3
+    edad: 4,
+    atributos: 3
 }
 
+/* para imprimirlos en la consola */
 console.log("Entero: ", int);
 console.log("Float: ", float);
 console.log("Boolean: ", boolean);
 console.log("String: ", string);
 console.log("Null: ", nulo);
 console.log("Indefinido: ", indefinida);
+console.log("Array: ", array);
+console.log("Objeto: ", objeto);
+
